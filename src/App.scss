@@ -1,0 +1,59 @@
+.cards {
+  justify-content: center;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+  text-align: center;
+  background-color: #2c2f33;  
+  padding-top: 1rem;
+  width:320px;  
+  height: 19rem;
+  
+
+ 
+    .links {
+      display: flex;
+      flex-direction:column;      
+      width: 100%;
+      gap: 1rem;
+    }
+
+    h3 {
+      color:white;
+    }
+   
+
+    .imagemSite  {
+      
+      :hover {
+        transform: scale(0.8);
+        transition-duration:  0.3s;
+    
+      }
+      
+      img{
+        border: 2px solid #99aab5;
+        /* border-radius:8px;  */
+        width: 15rem;
+      }
+      
+    }
+
+    .iconGit{
+
+      :hover {
+        transform: scale(1.4);
+        transition-duration:  0.3s;
+    
+      }
+
+      img{
+        width: 2rem;
+        
+      }
+
+    }
+
+  }
+
+  
