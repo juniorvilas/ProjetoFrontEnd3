@@ -6,7 +6,7 @@ const Header = () => {
                 <nav className="inicio navbar navbar-dark bg-dark" aria-label="First navbar example">
                     <div className="container-fluid">
                     
-                    <a className="navbar-brand" href="#banner-bg">Seja bem vindo eu sou o Junior !</a>
+                    <a className="navbar-brand" href="#banner-bg">Seja bem vindo eu sou o Carlindo !</a>
                     <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -17,7 +17,7 @@ const Header = () => {
                                 <a className="nav-link active" aria-current="page" href="#banner-bg">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="#banner-bg">Banner</a>
+                                <a className="nav-link active" href="#banner-bg">Sobre</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" href="#projetos">Projetos</a>
