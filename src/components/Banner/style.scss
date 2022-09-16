@@ -39,6 +39,14 @@
       
       .banner-texto  {
         width: 100%;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        font-weight: 700;
+        height: 100vh;
+        justify-content: center;
+        padding: 6rem 2rem 0;
+        
           
         h2 {
           font-size: 2rem;
