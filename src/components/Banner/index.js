@@ -16,14 +16,12 @@ const Banner = () => {
                         <div className="banner-texto">                           
                                 <h2>Sobre mim</h2>
                                 <p className="about-me">
-                                    Olá sou Carlindo Junior! <br />Sou <b>Desenvolvedor Front-End</b>, construindo projetos com Javascript/(React,Next, TypeScript, React Query, Styled Components).
+                                    Sou <b>Desenvolvedor Front-End</b>, construindo projetos com Javascript/(React,Next, TypeScript, React Query, Styled Components).
                                     Venho da área de logística, porém com mais de 2 anos de experiência no desenvolvimento de aplicações web.
                                     Tenho um olhar aguçado para negócios, novas metodologias.
                                     Vamos conversar!
                                 </p>
-                                <p>
-                                   Finalizei o primeiro ano do curso da DH em 05/2021 como full stack jr e atualmente faço especialização em Frontend a noite.
-                                </p>
+                                
                         </div>
                     </div>           
                 </section>
