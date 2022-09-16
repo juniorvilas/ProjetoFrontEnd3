@@ -1,4 +1,11 @@
-
+* {
+    box-sizing: border-box;
+    font-family: Fira Sans,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+        
+}
 #banner-bg {
     width: 100%;
     height: calc(100vh - 81px);
@@ -30,13 +37,14 @@
         }
       }
       
-      .banner-texto  { 
-        
+      .banner-texto  {
+        width: 100%;
+          
         h2 {
           font-size: 2rem;
           margin-bottom: 1rem;
         }
-
+        
         p {
           font-size: 1rem;
           text-align: justify;
@@ -44,6 +52,25 @@
         
        
       }
+      
+        .about-me {
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+            word-break: break-word;
+            
+            @media (min-width: 1024px) {
+            font-size: 3rem;
+            }
+            
+            @media (min-width: 768px) {
+            font-size: 2.5rem;
+            }
+            
+            @media (min-width: 425px) {
+            font-size: 2rem;
+            }
+            
+        }
       
     
       
